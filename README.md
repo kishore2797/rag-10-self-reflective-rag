@@ -68,6 +68,18 @@ npm run dev
 
 Open http://localhost:5178 — ingest docs, query with self-reflection toggle, see agent decisions.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It retrieves chunks, evaluates relevance (simple heuristic), and answers or refuses.
+
 ## 📖 What You'll Learn
 
 1. Why standard RAG answers even when it shouldn't
